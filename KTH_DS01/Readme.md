@@ -4,7 +4,7 @@
 3. Verification part: Pearson correlation coefficient, yz_0907 and yz_0912
 4. Plot part: yz_0915
 
-Open access publication standard.
+Open access publication standard for code. the dataset is accessable upon request.
 
 Partner owner of the data: KTH
 
