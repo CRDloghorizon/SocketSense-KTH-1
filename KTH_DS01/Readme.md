@@ -4,7 +4,7 @@
 3. Verification part: Pearson correlation coefficient and Euclidean distance, code_0907 and code_0912
 4. Plot part: code_0915
 
-Open access publication standard for code. the dataset is accessable upon request.
+Open access publication standard for code.
 
 Partner owner of the data: KTH
 
