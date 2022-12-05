@@ -3,10 +3,10 @@
 2. Kmeans, SOM and DTW in C. (Compatible to run on ESP32, with the IDF toolchain v3.3)
 3. An example main file which takes the BME dataset as input. 
 
-Open access publication standard
+Open access publication standard for code and dataset.
 
-Partner owner of the data: KTH
+Partner owner of the data: KTH.
 
-Partner in charge of the data collection: Open dataset from UCR
+Partner in charge of the data collection: Open dataset from UCR (https://www.cs.ucr.edu/~eamonn/time_series_data/).
 
 Purpose use of the data analysis: Refer to paper https://doi.org/10.1109/dsd53832.2021.00038
