@@ -113,17 +113,15 @@ y_euc=[
 94.2193,
 119.0815,]
 x=np.arange(len(x_name))
-# 创建图层
 
 fig, ax1 = plt.subplots()
 plt.xticks(fontsize=4)
 width=0.4
-# 设置左侧Y轴对应的figure
 
 ax1.set_ylim(0.98, 1)
 ax1.bar(x-width/2,num_list_all, width,fc='skyblue',label='PCC')
 plt.legend()
-plt.xticks(x, labels=x_name)  # 设置共用的x轴
+plt.xticks(x, labels=x_name) 
 
 
 ax2 = ax1.twinx()
