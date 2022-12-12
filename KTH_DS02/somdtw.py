@@ -215,7 +215,6 @@ class SOMdtw(object):
         self.trained = True
         print('Training done in {:.6f} seconds.'.format(end_time - start_time))
 
-
     def find_best_matching_node(self, data_vect):
         # This method is used to find best matching node for data vector.
         # The node coordinates and distance are returned.
@@ -320,21 +319,3 @@ if __name__ == '__main__':
     for i in range(samples):
         winmap[locations[i, 2]].append(data[i, :])
 
-    # plt.rcParams['savefig.dpi'] = 500
-    # plt.rcParams['figure.dpi'] = 500
-    # fig = plt.figure(tight_layout=True)
-    # # grid row : x, coloum : y
-    # size1 = 3
-    # size2 = 4
-    # gs = GridSpec(size1, size2)
-    # for x in range(size1):
-        # for y in range(size2):
-            # ax = fig.add_subplot(gs[x, y])
-            # ki = y * size1 + x
-            # if ki < len(winmap) and winmap[ki]:
-                # ax.plot(np.mean(winmap[ki], axis=0))
-
-            # ax.set_title('Cluster %d' % (ki + 1))
-
-    # #plt.savefig('./scri6.png')
-    # plt.show()
