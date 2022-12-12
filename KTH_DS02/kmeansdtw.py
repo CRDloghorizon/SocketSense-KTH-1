@@ -175,5 +175,4 @@ if __name__ == '__main__':
             if ki < len(centroid):
                 ax.plot(centroid[ki])
                 ax.set_title('Cluster %d' % (ki+1))
-    # plt.savefig('./rcri5.png')
     plt.show()
